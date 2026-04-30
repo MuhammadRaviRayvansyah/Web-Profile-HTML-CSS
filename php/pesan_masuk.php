@@ -1,18 +1,14 @@
 <?php
 include "koneksi.php";
-
 $data = mysqli_query($conn, "SELECT * FROM pesan ORDER BY id DESC");
 ?>
-
 <!DOCTYPE html>
 <html>
 <head>
     <title>Pesan Masuk</title>
 </head>
 <body>
-
     <h2>Data Pesan Masuk</h2>
-
     <table border="1" cellpadding="10">
         <tr>
             <th>No</th>
@@ -24,7 +20,6 @@ $data = mysqli_query($conn, "SELECT * FROM pesan ORDER BY id DESC");
             <th>File</th>
             <th>Tanggal</th>
         </tr>
-
         <?php
         $no = 1;
         while ($row = mysqli_fetch_assoc($data)) {
@@ -40,8 +35,6 @@ $data = mysqli_query($conn, "SELECT * FROM pesan ORDER BY id DESC");
             <td><?= $row['tanggal']; ?></td>
         </tr>
         <?php } ?>
-
     </table>
-
 </body>
 </html>
