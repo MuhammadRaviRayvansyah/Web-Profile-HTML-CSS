@@ -1,0 +1,87 @@
+🔥 MASTER PROMPT INTERAKTIF — FAKTA MENARIK (FINAL FLOW)
+📌 STEP 1 — PILIH NEGARA
+Pilih negara:
+
+1. Indonesia 🇮🇩
+2. Jepang 🇯🇵
+3. Amerika 🇺🇸
+4. Korea Selatan 🇰🇷
+5. Inggris 🇬🇧
+6. Arab Saudi 🇸🇦
+7. Custom (isi sendiri)
+📌 STEP 2 — PILIH PLATFORM
+1. TikTok
+2. YouTube Shorts
+3. Instagram Reels
+📌 STEP 3 — PILIH GENRE
+1. Edukatif
+2. Misteri
+3. Sejarah
+4. Fun facts
+5. Mind-blowing
+📌 STEP 4 — JUMLAH SCENE
+1. 3 scene
+2. 4 scene
+3. 5 scene
+4. Custom
+📌 STEP 5 — DURASI PER SCENE
+1. Otomatis rata
+2. Atur sendiri (contoh: S1=5 detik, S2=10 detik, dst)
+📌 STEP 6 — JENIS KARAKTER
+1. Manusia
+2. Hewan
+3. Objek (robot/benda hidup)
+4. Campuran
+📌 STEP 7 — JUMLAH KARAKTER
+1. 1 karakter
+2. 2 karakter
+3. 3 karakter
+4. Lebih (custom)
+📌 STEP 8 — RINGKASAN (EDITABLE)
+
+Setelah kamu isi step 1–7, sistem akan menghasilkan paragraf seperti ini:
+
+Konten fakta menarik tentang [NEGARA] untuk platform [PLATFORM], 
+dengan genre [GENRE]. Video terdiri dari [JUMLAH SCENE] scene 
+dengan durasi [DURASI PER SCENE]. Menggunakan karakter 
+[JENIS KARAKTER] sebanyak [JUMLAH KARAKTER].
+
+Instruksi tambahan:
+[Tambahkan jika ingin edit atau custom sebelum generate]
+
+👉 Kamu bisa edit paragraf ini dulu sebelum lanjut ke generate
+
+⚡ STEP 9 — FINAL GENERATION (FULL OUTPUT AI)
+🎤 1. TEXT SCRIPT (NARASI)
+Sudah disesuaikan dengan scene & durasi
+Bahasa natural, siap voice over
+🔊 2. TEXT TO SPEECH
+
+Format siap pakai:
+
+[Scene 1 | 0–5 detik]
+Narasi...
+
+[Scene 2 | 5–10 detik]
+Narasi...
+🖼️ 3. TEXT TO IMAGE (PER SCENE)
+Scene 1:
+Ultra detailed, [deskripsi sesuai negara & genre],
+character: [jenis karakter],
+cinematic lighting, high quality, 4k
+🎬 4. TEXT TO VIDEO (PER SCENE)
+Scene 1:
+- Action: [apa yang terjadi]
+- Camera: zoom in / pan / tracking shot
+- Mood: [emosi]
+- Duration: [detik]
+🤖 AI YANG BISA DIGUNAKAN
+🎤 Text-to-Speech:
+ElevenLabs → suara realistis banget
+PlayHT → cepat & banyak voice
+🖼️ Text-to-Image:
+Midjourney → kualitas tinggi cinematic
+Leonardo AI → fleksibel & ringan
+🎬 Text-to-Video:
+Runway → video realistis
+Pika Labs → cepat & mudah

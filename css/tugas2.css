@@ -33,22 +33,22 @@ a {
   color: #000000;
 }
 
-.navigation {
+nav {
   margin-right: 8rem;
 }
 
-.navigation ul {
+nav ul {
   list-style: none;
   display: flex;
   gap: 3rem;
 }
 
-.navigation ul li a {
+nav ul li a {
   font-size: 1.2rem;
   font-weight: 700;
 }
 
-.navigation ul li a:hover {
+nav ul li a:hover {
   color: #ff751f;
   border-bottom: 2px solid #ff751f;
 }
@@ -222,10 +222,6 @@ input {
   font-weight: 700;
 }
 
-input:focus {
-  background-color: #ff751f;
-}
-
 input:hover {
   border: 2px solid #ff751f;
 }
@@ -240,10 +236,6 @@ textarea {
   border-radius: 1rem;
   margin: 0 0 0.8rem 0;
   font-weight: 700;
-}
-
-textarea:focus {
-  background-color: #ff751f;
 }
 
 textarea:hover {
@@ -373,19 +365,3 @@ header h2:hover {
 .tools h3:hover {
   color: #ff751f;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -151,7 +151,7 @@
             <h3>Via <span>Email</span> <span>Instragram</span> <span>Whatsapp</span></h3>
             <div class="kontak-flex">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253840.478949799!2d106.829518!3d-6.2297465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e945e34b9d%3A0x5371bf0fdad786a2!2sJakarta%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sid!2sid!4v1739149673765!5m2!1sid!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
-                <form action="" method="post">
+                <form action="php/proses_pesan.php" method="POST" id="myForm" enctype="multipart/form-data">
                     <label for="nama">Nama Lengkap:</label>
                     <input type="text" id="nama" name="nama" required placeholder="Nama Lengkap">
 
@@ -162,7 +162,7 @@
                     <input type="email" id="email" name="email" placeholder="example@gmail.com">
 
                     <label for="tel">No. Telepon:</label>
-                    <input type="tel" id="tel" name="no.telepon" placeholder="123456789">
+                    <input type="tel" id="tel" name="no_telepon" placeholder="123456789">
 
                     <input type="file" id="file" name="file">
 
@@ -191,5 +191,6 @@
         </div>
      </footer>
 
+     <script src="js/tugas3.js"></script>
   </body>
 </html>
