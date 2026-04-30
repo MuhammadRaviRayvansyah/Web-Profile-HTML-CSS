@@ -27,14 +27,4 @@ $query = "INSERT INTO pesan
 VALUES
 ('$nama', '$email', '$usia', '$no_telepon', '$pesan', '$nama_file')";
 
-//proses debugging
-if (mysqli_query($conn, $query)) {
-    echo "<h1 style='color:green;'>BERHASIL! Data berhasil masuk ke database.</h1>";
-    echo "<a href='pesan_masuk.php'>Klik di sini untuk melihat data</a>";
-} else {
-    echo "<h1 style='color:red;'>GAGAL DISIMPAN! Terjadi kesalahan MySQL:</h1>";
-    echo "<p><b>Error:</b> " . mysqli_error($conn) . "</p>";
-    echo "<p><b>Query:</b> " . $query . "</p>";
-    echo "<button onclick='history.back()'>Kembali ke Form</button>";
-}
 ?>

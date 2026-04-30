@@ -6,7 +6,7 @@ document.getElementById("myForm").addEventListener("submit", function(e) {
     let pesan = document.getElementById("pesan").value;
 
     if (nama === "" || usia === "" || email === "" || tel === "" || pesan === "") {
-        alert("Harap isi semua kolom (Nama, Usia, Email, Telepon, dan Pesan)!");
+        alert("Harap isi semua kolom");
         e.preventDefault();
         return;
     }
@@ -17,4 +17,5 @@ document.getElementById("myForm").addEventListener("submit", function(e) {
         return;
     }
 
+    alert("Pesan berhasil dikirim!");
 });
